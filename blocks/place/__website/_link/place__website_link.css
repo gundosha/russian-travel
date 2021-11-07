@@ -1,0 +1,15 @@
+.place__website_link {
+    text-decoration: none;
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.place__website_link:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 320px) {
+    .place__website_link {
+        padding: 0 16px 0 16px
+    }
+}

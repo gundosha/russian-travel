@@ -1,0 +1,11 @@
+.place__parapgraph {
+    font-size: 18px;
+    line-height: 29.34px;
+}
+
+@media screen and (max-width: 768px) {
+    .place__parapgraph {
+        font-size: 16px;
+        line-height: 26.08px;
+    }
+}
