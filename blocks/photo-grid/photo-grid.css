@@ -2,13 +2,8 @@
     margin: auto;
     max-width: 92.5%;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: auto;
     gap: 16px 16px;
-    /*   grid-template-areas: "pic pic pic pic" "pic pic pic pic" "pic pic pic pic";
-grid-area: pic;
-grid-template-columns: repeat(auto-fit, 1fr);
-gap: 16px 16px; */
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     flex-wrap: wrap;
 }
