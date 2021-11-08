@@ -1,9 +1,0 @@
-.place__paragraph_item:not(:first-child) {
-    padding-top: 25px;
-}
-
-@media screen and (max-width: 320px) {
-    .place__paragraph_item {
-        padding: 0 16px 0 16px;
-    }
-}

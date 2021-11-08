@@ -1,9 +1,10 @@
 .place {
     margin: auto;
     display: grid;
-    /*  grid-template-areas: "title link" "pic paragraph "; */
+    grid-template-columns: repeat(2, 460px);
+    grid-template-areas: "title link" "pic paragraph";
     gap: 48px 40px;
-    grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
+    /* grid-template-columns: repeat(auto-fit, minmax(460px, 1fr)); */
     padding: 0 0 80px 0;
 }
 
@@ -21,5 +22,11 @@
 @media screen and (max-width: 768px) {
     .place {
         grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+        grid-template-areas: "title" "link" "pic" " paragraph";
     }
 }

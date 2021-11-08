@@ -1,6 +1,18 @@
 .place__parapgraph {
     font-size: 18px;
     line-height: 29.34px;
+    margin: 0;
+    grid-area: paragraph;
+}
+
+.place__paragraph:last-child {
+    padding-top: 25px;
+}
+
+@media screen and (max-width: 320px) {
+    .place__paragraph {
+        padding: 0 16px 0 16px;
+    }
 }
 
 @media screen and (max-width: 768px) {
