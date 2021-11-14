@@ -1,7 +1,6 @@
 .place {
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(2, 460px);
     grid-template-areas: "title link" "pic paragraph";
     gap: 48px 40px;
     /* grid-template-columns: repeat(auto-fit, minmax(460px, 1fr)); */
@@ -25,8 +24,14 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
     .place {
         grid-template-areas: "title" "link" "pic" " paragraph";
+    }
+    .place:first-child {
+        padding-top: 64px;
+    }
+    .place:last-child {
+        padding-bottom: 66px;
     }
 }

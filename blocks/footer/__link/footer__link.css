@@ -7,14 +7,15 @@
   
   .footer__link:hover {
       opacity: 0.8;
+      transition: opacity .8s;
   }
   
-  .footer__link:not(:nth-child(5)) {
+  .footer__link:not(:last-child) {
       margin-right: 18px;
   }
   
-  @media screen and (max-width: 320px) {
-      .footer__link:not(:nth-child(5)) {
+  @media screen and (max-width: 560px) {
+      .footer__link:not(:last-child) {
           margin-bottom: 32px;
       }
       .footer__link {
