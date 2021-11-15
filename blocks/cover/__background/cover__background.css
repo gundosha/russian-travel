@@ -1,13 +1,12 @@
 .cover__background {
-    background-position: center;
     margin: auto;
     background: url(../../../images/cover-trains.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 1184px;
-    max-height: 100vw;
     padding: 245px 0 245px 0;
     position: relative;
+    background-position: center;
 }
 
 .cover__background::before {
@@ -19,6 +18,7 @@
     left: 0;
     right: 0;
     bottom: 0;
+    background-position: center;
 }
 
 .cover__background:hover::before {

@@ -4,11 +4,14 @@
     grid-template-areas: "title link" "pic paragraph";
     gap: 48px 40px;
     /* grid-template-columns: repeat(auto-fit, minmax(460px, 1fr)); */
+}
+
+.place:not(:last-child) {
     padding: 0 0 80px 0;
 }
 
 .place:first-child {
-    padding-top: 92px;
+    margin-top: 92px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -24,14 +27,15 @@
     }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 650px) {
     .place {
         grid-template-areas: "title" "link" "pic" " paragraph";
+        gap: 32px 0px;
     }
     .place:first-child {
-        padding-top: 64px;
+        margin-top: 64px;
     }
     .place:last-child {
-        padding-bottom: 66px;
+        margin-bottom: 66px;
     }
 }

@@ -3,15 +3,16 @@
     display: flex;
 }
 
-@media screen and (max-width: 320px) {
-    .header {
-        margin: 0 16px;
-    }
-}
-
 @media screen and (max-width:768px) {
     .header {
         max-width: 720px;
         margin: 0 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        margin: 0 16px;
+        max-width: 288px;
     }
 }
