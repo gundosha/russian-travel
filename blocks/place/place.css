@@ -38,4 +38,7 @@
     .place:last-child {
         margin-bottom: 66px;
     }
+    .place:not(:last-child) {
+        padding: 0 0 50px 0;
+    }
 }

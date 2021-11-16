@@ -18,7 +18,6 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-position: center;
 }
 
 .cover__background:hover::before {
