@@ -19,10 +19,3 @@
         line-height: 26.08px;
     }
 }
-
-@media screen and (max-width: 356px) {
-    .place__paragraph {
-        max-width: 288px;
-        justify-self: center;
-    }
-}
